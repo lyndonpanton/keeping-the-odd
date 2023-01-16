@@ -7,6 +7,16 @@ namespace Exercise13
         static void Main(string[] args)
         {
             List<int> integers = new List<int>();
+
+            for (int i = 1; i <= 10; i++)
+            {
+                integers.Add(i);
+            }
+
+            for (int i = 0; i < integers.Count; i++)
+            {
+                Console.WriteLine(integers[i]);
+            }
         }
     }
 }

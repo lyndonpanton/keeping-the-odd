@@ -1,10 +1,12 @@
-﻿namespace Exercise13
+﻿using System.Collections.Generic;
+
+namespace Exercise13
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            List<int> integers = new List<int>();
         }
     }
 }

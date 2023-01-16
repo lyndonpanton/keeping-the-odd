@@ -34,6 +34,30 @@ namespace Exercise13
             {
                 Console.WriteLine(integers[i]);
             }
+
+            // problem 3
+            List<int> moreIntegers = new List<int>
+            {
+                1,
+                2,
+                3,
+                4,
+                5
+            };
+
+            for (int i = 0; i < moreIntegers.Count; i++)
+            {
+                if (moreIntegers[i] >= 1 && moreIntegers[i] <= 3)
+                {
+                    moreIntegers.RemoveAt(i);
+                }
+            }
+
+            foreach(int integer in moreIntegers)
+            {
+                Console.WriteLine(integer);
+            }
+
         }
     }
 }

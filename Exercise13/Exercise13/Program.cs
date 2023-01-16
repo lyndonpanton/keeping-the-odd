@@ -20,6 +20,8 @@ namespace Exercise13
                 Console.WriteLine(integers[i]);
             }
 
+            Console.WriteLine();
+
             // problem 2
             for (int i = integers.Count - 1; i >= 0; i--)
             {
@@ -34,6 +36,8 @@ namespace Exercise13
             {
                 Console.WriteLine(integers[i]);
             }
+
+            Console.WriteLine();
 
             // problem 3
             List<int> moreIntegers = new List<int>
@@ -57,6 +61,8 @@ namespace Exercise13
             {
                 Console.WriteLine(integer);
             }
+
+            Console.WriteLine();
 
         }
     }
